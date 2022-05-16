@@ -1,0 +1,60 @@
+/* 
+TYPOGRAPHY
+*/
+body{
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+/* 
+LAYOUT
+*/
+body{
+    background-image: url("../images/michal-parzuchowski-dmH3NWhYTHQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5% 15%;
+    /* background-clip: content-box; */
+    padding-top: 150px ;
+    margin: 0, auto;
+}
+
+.container{
+    display: inline-block;
+    background-color: rgb(54, 50, 50,0.6);
+    width: 50%;
+    padding: 30px;
+}
+
+#count-el{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+button {
+    width: 160px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-weight: 700;
+}
+
+#increment-btn {
+    background-color: darkred;
+}
+#save-btn {
+    background-color: darkgreen;
+}
+
+#save-el{
+    font-size: 25px;
+}
